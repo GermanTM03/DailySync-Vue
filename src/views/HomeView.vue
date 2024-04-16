@@ -204,6 +204,7 @@ const redirect = (IDA: number, UsuarioID: number) => {
 .Eliminar button{
  width: 100%;
  height: 100%;
+ color: white;
  background-color: #6E85B7;
 
  border-radius: 2rem;
@@ -213,11 +214,21 @@ const redirect = (IDA: number, UsuarioID: number) => {
 .Editar button{
  width: 100%;
  background-color: #6E85B7;
-
+ color: white;
  height: 100%;
  border-radius: 2rem;
  border: none;
  cursor: pointer;
+}
+.Eliminar  :hover{
+  background-color: #a7b9e0;
+  color: black;
+
+}
+.Editar  :hover{
+  background-color: #a7b9e0;
+  color: black;
+
 }
 
 .Agregar a{
